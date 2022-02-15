@@ -4,3 +4,44 @@ header {
 h1 {
   font-size: 200%;
   position: absolute; }
+
+.font-ubuntu {
+  font-family: 'Ubuntu', sans-serif; }
+
+.font-quick {
+  font-family: 'Quicksand', sans-serif; }
+
+.color-green {
+  color: #0A847E; }
+
+.color-open-text {
+  color: #C16CBB; }
+
+.bg-lighter-green {
+  background-color: #5BD6C1; }
+
+.color-pink {
+  color: #EEB5EB; }
+
+.color-red {
+  color: #FF2768; }
+
+.color-navbar {
+  color: #3CACAE; }
+
+.long-underline {
+  display: inline-block;
+  padding: 0 50px;
+  border-bottom: 2px solid; }
+
+.col {
+  flex: 0 0 0% !important; }
+
+.wrapper-image {
+  background-image: url(../media/images/wrapper.png);
+  background-size: cover;
+  width: 260px;
+  height: 70px; }
+  .wrapper-image:hover {
+    background-image: url(../media/images/selected-wrapper.png);
+    cursor: pointer; }
