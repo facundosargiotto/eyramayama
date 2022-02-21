@@ -1,12 +1,19 @@
+.navbar {
+    background: rgba(60, 172, 174, 0.63);
+    padding: 0;
+}
+
 .navbar-nav {
     display: flex;
     width: 100%;
-    justify-content: space-around
+    justify-content: space-around;
+    margin: 0rem 5rem;
 }
 
 .nav-link {
     text-decoration: none;
     color: black;
+    font-size: 1.5rem;
     padding: 3rem 1rem;
 }
 
@@ -23,18 +30,3 @@
     font-size: 36px;
 }
 
-.container-hero {
-    height: 90vh;
-    background-image: url(https://res.cloudinary.com/db8t2tgov/image/upload/v1645204565/Sin_ti%CC%81tulo_1080_1080_px_4_j4fbpu.png);
-    background-size: cover;
-    display: flex;
-    justify-content: space-between;
-
-    &>* {
-        margin: 5rem;
-    }
-}
-
-.logo {
-    height: 251px;
-}
