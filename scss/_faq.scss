@@ -1,0 +1,20 @@
+.FAQ {
+    & summary {
+        font-family: Ubuntu;
+        font-size: 1.25rem;
+        font-weight: 500;
+        line-height: 23px;
+        padding-bottom: 1.5625rem;
+    }
+    & p {
+        font-family: Ubuntu;
+        font-size: 1.125rem;
+        font-weight: 500;
+        line-height: 21px;
+    }
+}
+
+
+.container-faq {
+    margin: 3.75rem 5rem;
+}

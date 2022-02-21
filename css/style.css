@@ -5,7 +5,7 @@
   font-family: 'Quicksand', sans-serif; }
 
 .color-green {
-  color: #0A847E; }
+  color: #0a847e; }
 
 .color-open-text {
   color: #C16CBB; }
@@ -18,9 +18,6 @@
 
 .color-red {
   color: #FF2768; }
-
-.color-navbar {
-  color: #3CACAE; }
 
 .long-underline {
   display: inline-block;
@@ -45,7 +42,44 @@
   margin-top: 5rem; }
 
 .imagenCarousel {
-  width: 25%; }
+  width: 25%;
+  padding: .65rem; }
+
+.containerServicios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 729px; }
+
+.container-txt-profesorado {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; }
+  .container-txt-profesorado h2 {
+    text-align: center; }
+  .container-txt-profesorado p {
+    font-size: 1.875rem;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: center;
+    width: 36.5625rem; }
+
+.font-44 {
+  font-size: 2.75rem; }
+
+.p-75 {
+  padding-top: 4.6875rem; }
+
+button {
+  background-color: transparent;
+  border: none; }
+
+#cerrarEscuela {
+  cursor: pointer; }
+
+#cerrarProfesorado {
+  cursor: pointer; }
 
 .navbar {
   background: rgba(60, 172, 174, 0.63);
@@ -118,6 +152,22 @@
     margin: 0rem 1rem; }
     .container-hero h1 {
       font-size: 2.5rem; } }
+
+.FAQ summary {
+  font-family: Ubuntu;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 23px;
+  padding-bottom: 1.5625rem; }
+
+.FAQ p {
+  font-family: Ubuntu;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 21px; }
+
+.container-faq {
+  margin: 3.75rem 5rem; }
 
 * {
   margin: 0;
