@@ -3,41 +3,61 @@
     padding: 0;
 }
 
-.navbar-nav {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
+h1{
+    font-size: 200%;
+    position: absolute;
 }
 
-.nav-link {
-    text-decoration: none;
-    color: black;
-    padding: 3rem 1rem;
+.font-ubuntu{
+    font-family: 'Ubuntu', sans-serif;
 }
 
-.nav-link:hover {
-    color: black;
-}
-.nav-link:visited {
-    color: black;
+.font-quick{
+    font-family: 'Quicksand', sans-serif;
 }
 
-.fa-bars {
-    margin: 1rem;
-    font-size: 36px;
+.color-green{
+    color: #0A847E;
 }
 
-.container-hero {
-    height: 90vh;
-    background-image: url(https://res.cloudinary.com/db8t2tgov/image/upload/v1645204565/Sin_ti%CC%81tulo_1080_1080_px_4_j4fbpu.png);
+.color-open-text{
+    color: #C16CBB;
+}
+
+.bg-lighter-green{
+    background-color: #5BD6C1;
+}
+
+.color-pink{
+    color: #EEB5EB;
+}
+
+.color-red{
+    color: #FF2768;
+}
+
+.color-navbar{
+    color: #3CACAE;
+}
+
+.long-underline{
+    display: inline-block;
+    padding: 0 50px;
+    border-bottom: 2px solid;
+}
+
+// RESET
+.col{
+    flex: 0 0 0% !important;
+}
+
+.wrapper-image{
+    background-image: url(../media/images/wrapper.png);
     background-size: cover;
-    display: flex;
-    justify-content: space-between;
-    & >* {
-        margin: 5rem;
+    width: 260px;
+    height: 70px;
+    &:hover{
+        background-image: url(../media/images/selected-wrapper.png);
+        cursor: pointer;
     }
-}
-
-.logo {
-    height: 251px;
 }
