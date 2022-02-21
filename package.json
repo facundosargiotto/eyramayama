@@ -13,5 +13,13 @@
   "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.15"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/facundosargiotto/eyramayama.git"
+  },
+  "bugs": {
+    "url": "https://github.com/facundosargiotto/eyramayama/issues"
+  },
+  "homepage": "https://github.com/facundosargiotto/eyramayama#readme"
 }

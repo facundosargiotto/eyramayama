@@ -1,0 +1,32 @@
+.navbar {
+    background: rgba(60, 172, 174, 0.63);
+    padding: 0;
+}
+
+.navbar-nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 0rem 5rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    padding: 3rem 1rem;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.nav-link:visited {
+    color: black;
+}
+
+.fa-bars {
+    margin: 1rem;
+    font-size: 36px;
+}
+
