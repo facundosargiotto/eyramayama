@@ -63,6 +63,7 @@
 
 .containerServicios {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 729px;
@@ -73,6 +74,7 @@
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
+    align-items: center;
 
     & h2 {
         text-align: center;
@@ -102,8 +104,33 @@ button {
 
 #cerrarEscuela {
     cursor: pointer;
+    margin-bottom: 3rem;
+    height: 4rem;
+
 }
 
 #cerrarProfesorado {
     cursor: pointer;
+    margin-bottom: 3rem;
+    height: 4rem;
+}
+
+.btn-verde{
+    background-color: rgba(10, 132, 126, 1);
+    height: fit-content;
+    width: fit-content;
+    padding: 1rem 3rem;
+    border-radius: 3rem; 
+    margin-bottom: 2rem;
+    color: #ffffff;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+#containerProfesorado{
+    margin: 7rem 0;
+}
+
+#containerEscuela{
+    margin: 7rem 0;
 }
