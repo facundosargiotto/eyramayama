@@ -46,15 +46,14 @@
         </div>
     </div>
 
-    <div class="row flex-column"
-        style="background-image: url(./media/images/vector-escuela.png); background-size: cover;">
+    <div class="row flex-column escuela-row">
         <div class="col d-flex justify-content-center font-quick align-items-center" style="margin-top: 5rem;">
             <h2 id="conocenos" class="long-underline" style="font-size: 44px; color: white;">La Escuela</h2>
         </div>
 
-        <div class="col d-flex flex-row justify-content-evenly w-100 align-items-center my-5">
-            <div class="font-ubuntu" style="font-size: 1.6875rem; font-weight: 600; width: 36.5625rem">
-                <p>Ramayana es un espacio de conocimiento, de
+        <div class="col d-flex flex-column flex-md-row justify-content-evenly w-100 align-items-center my-5">
+            <div class="font-ubuntu">
+                <p class="escuela-row__texto">Ramayana es un espacio de conocimiento, de
                     indagación, aprendizaje y experimentación.
                     Quienes formamos parte de esta escuela
                     creemos y fomentamos un yoga para y al
@@ -73,7 +72,7 @@
         <h2 id="servicios" class="long-underline" style="font-size: 44px !important; font-weight: 600; margin-top: 5rem;">Servicios
         </h2>
     </div>
-    <div class="col d-flex justify-content-evenly" style="margin-top: 8.4375rem;">
+    <div class="col d-flex justify-content-evenly div-botones" style="margin-top: 8.4375rem;">
         <div class="wrapper-image d-flex justify-content-center align-items-center">
             <button id="btnEscuela" class="font-quick" style="font-size: 36px; font-weight: 600;">Clases</button>
         </div>
@@ -84,7 +83,7 @@
     </div>
     <div id="containerEscuela" class="containerServicios">
         <img id="cerrarEscuela" src="./media/images/close.png" alt="close button">
-        <div class="d-flex">
+        <div class="d-flex flex-column flex-md-row contenedor-escuela">
             <img src="./media/images/escuelaimg.jpg" alt="">
             <div class="container-txt-profesorado">
                 <h2 class="font-quick long-underline color-green">Clases</h2>
@@ -92,14 +91,13 @@
                     físico, desarrolle su
                     conciencia espiritual, y calme su mente. Durante los encuentros trabajaremos de forma holística en la
                     incorporación de técnicas milenarias para mejorar nuestro día a día. </p>
-                <a href="" class="btn-verde">Ver más</a>
             </div>
         </div>
     </div>
 
     <div id="containerProfesorado" class="containerServicios">
         <img id="cerrarProfesorado" src="./media/images/close.png" alt="close button">
-        <div class="d-flex">
+        <div class="d-flex flex-column flex-md-row contenedor-profesorado">
             <img src="./media/images/profesoradoimg.png" alt="">
             <div class="container-txt-profesorado">
                 <h2 class="font-quick long-underline color-green">Profesorado</h2>
@@ -107,7 +105,6 @@
                     físico, desarrolle su
                     conciencia espiritual, y calme su mente. Durante los encuentros trabajaremos de forma holística en la
                     incorporación de técnicas milenarias para mejorar nuestro día a día. </p>
-                <a href="" class="btn-verde font-ubuntu">Ver más</a>
             </div>
         </div>
     </div>
@@ -235,7 +232,7 @@
         <div class="col d-flex justify-content-center font-quick color-green">
             <h2 id="contacto" class="long-underline" style="font-size: 44px !important; font-weight: 600;">Contacto</h2>
         </div>
-        <div class="col d-flex ">
+        <div class="col d-flex flex-column flex-md-row">
             <iframe class="my-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8039.003478590224!2d-58.42344360463823!3d-34.61015339163667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca5e41da17ff%3A0xebce9fad2698f23f!2sAlmagro%2C%20CABA!5e0!3m2!1ses!2sar!4v1645447649080!5m2!1ses!2sar" width="45%" height="500px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             
             <div id="fb-root"></div>
@@ -267,7 +264,7 @@
         <div class="col-8 d-flex flex-column ps-5 align-items-center">
             <span class="my-5 font-quick" style="font-weight: 600; font-size: 24px;">Federaciones e instituciones
                 nacionales que avalan la escuela:</span>
-            <div style="margin-left: 7rem;">
+            <div class="logos-container"">
                 <img class="px-1" src="./media/images/insti8.png" alt="">
                 <img class="px-1" src="./media/images/insti4.png" alt="">
                 <img class="px-1" src="./media/images/insti5.png" alt="">

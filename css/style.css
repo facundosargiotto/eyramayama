@@ -24,6 +24,9 @@
   padding: 0 50px;
   border-bottom: 2px solid; }
 
+body {
+  width: 100vw; }
+
 .col {
   flex: 0 0 0% !important; }
 
@@ -103,6 +106,43 @@ button {
 
 #containerEscuela {
   margin: 7rem 0; }
+
+.escuela-row {
+  background-image: url(../media/images/vector-escuela.png);
+  background-size: cover; }
+  .escuela-row__texto {
+    font-size: 1.6875rem;
+    font-weight: 600;
+    width: 36.5625rem; }
+
+@media only screen and (min-width: 200px) and (max-width: 500px) {
+  .escuela-row__texto {
+    font-size: 1.5rem;
+    width: 70vw; }
+  .contenedor-escuela {
+    align-items: center; }
+    .contenedor-escuela img {
+      max-width: 100vw; }
+  .contenedor-profesorado {
+    align-items: center; }
+    .contenedor-profesorado img {
+      max-width: 100vw; }
+  #cerrarEscuela {
+    margin-bottom: 0;
+    margin-top: 3rem; }
+  .div-botones {
+    flex-direction: column;
+    align-items: center; }
+  .container-txt-profesorado p {
+    width: 100vw; }
+  iframe {
+    width: 95vw; }
+  .logos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .logos-container img {
+      width: 8rem; } }
 
 .navbar {
   background: rgba(60, 172, 174, 0.63);
