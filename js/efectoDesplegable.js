@@ -17,9 +17,9 @@ function mostrarProfesorado() {
 }
 
 function cerrarProfesorado() {
-    $('#containerProfesorado').slideUp(500)
+    $('#containerProfesorado').slideUp(500);
 }
 
 function cerrarEscuela() {
-    $('#containerEscuela').slideUp(500)
+    $('#containerEscuela').slideUp(500);
 }
