@@ -24,9 +24,6 @@
   padding: 0 50px;
   border-bottom: 2px solid; }
 
-body {
-  width: 100vw; }
-
 .col {
   flex: 0 0 0% !important; }
 
@@ -52,23 +49,25 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  height: 729px; }
+  align-items: center; }
 
 .container-txt-profesorado {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   height: 100%;
   align-items: center; }
   .container-txt-profesorado h2 {
-    text-align: center; }
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
   .container-txt-profesorado p {
     font-size: 1.875rem;
     font-weight: 400;
     line-height: 34px;
     text-align: center;
-    width: 36.5625rem; }
+    width: 80%;
+    margin-top: 2rem; }
 
 .font-44 {
   font-size: 2.75rem; }
@@ -90,22 +89,25 @@ button {
   margin-bottom: 3rem;
   height: 4rem; }
 
-.btn-verde {
-  background-color: #0a847e;
-  height: fit-content;
-  width: fit-content;
-  padding: 1rem 3rem;
-  border-radius: 3rem;
-  margin-bottom: 2rem;
-  color: #ffffff;
-  font-weight: 900;
-  text-decoration: none; }
+.btnVerde {
+  color: white;
+  padding: 1.3125rem 4.25rem;
+  background-color: #5BD6C1;
+  text-decoration: none;
+  font-size: 1.75rem;
+  border-radius: 60px;
+  width: fit-content; }
 
-#containerProfesorado {
-  margin: 7rem 0; }
+.btnVerde:hover {
+  color: white; }
 
-#containerEscuela {
-  margin: 7rem 0; }
+#btnEscuela {
+  font-size: 2.25rem;
+  font-weight: 600; }
+
+#btnProfesorado {
+  font-size: 2.25rem;
+  font-weight: 600; }
 
 .escuela-row {
   background-image: url(../media/images/vector-escuela.png);
@@ -115,26 +117,47 @@ button {
     font-weight: 600;
     width: 36.5625rem; }
 
+.contenedor-profesorado {
+  width: 70%; }
+
+.contenedor-escuela {
+  width: 70%; }
+
 @media only screen and (min-width: 200px) and (max-width: 500px) {
   .escuela-row__texto {
-    font-size: 1.5rem;
-    width: 70vw; }
+    font-size: 1.4rem;
+    width: 70vw;
+    text-align: center; }
   .contenedor-escuela {
-    align-items: center; }
+    align-items: center;
+    width: 100%; }
     .contenedor-escuela img {
-      max-width: 100vw; }
+      max-width: 80%; }
+  #btnEscuela {
+    font-size: 1.9rem;
+    font-weight: 600; }
+  #btnProfesorado {
+    font-size: 1.9rem;
+    font-weight: 600; }
   .contenedor-profesorado {
-    align-items: center; }
+    align-items: center;
+    width: 100%; }
     .contenedor-profesorado img {
-      max-width: 100vw; }
+      max-width: 80%; }
   #cerrarEscuela {
-    margin-bottom: 0;
-    margin-top: 3rem; }
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    height: 3rem; }
+  #cerrarProfesorado {
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    height: 3rem; }
   .div-botones {
     flex-direction: column;
     align-items: center; }
   .container-txt-profesorado p {
-    width: 100vw; }
+    width: 80%;
+    font-size: 1.5rem; }
   iframe {
     width: 95vw; }
   .logos-container {
@@ -142,15 +165,24 @@ button {
     flex-direction: column;
     align-items: center; }
     .logos-container img {
-      width: 8rem; } }
+      width: 8rem; }
+  .container-carousel {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3rem; }
+    .container-carousel img {
+      width: 50%; }
+  .font-44 {
+    font-size: 30px;
+    text-align: center; }
+  .container-faq {
+    width: fit-content; }
+  .btnVerde {
+    font-size: 1rem;
+    padding: 1rem 2rem; } }
 
-.btnVerde {
-  color: white;
-  padding: 1.3125rem 4.25rem;
-  background-color: #5BD6C1;
-  text-decoration: none;
-  font-size: 1.75rem;
-  border-radius: 60px; }
+.imageLaEscuela {
+  width: 80%; }
 
 .navbar {
   background: rgba(60, 172, 174, 0.63);
@@ -189,8 +221,7 @@ button {
   justify-content: space-between;
   align-items: center;
   margin: 0rem 13rem;
-  max-width: 100%;
-  height: 100%; }
+  max-width: 100%; }
   .container-hero > * {
     margin-bottom: 7rem; }
   .container-hero h1 {
@@ -202,7 +233,14 @@ button {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
 
 .logo {
+  max-height: 80%;
   height: 251px; }
+
+.cont-elements-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%; }
 
 @media only screen and (min-width: 1722px) {
   .container-hero {
@@ -223,6 +261,20 @@ button {
     margin: 0rem 1rem; }
     .container-hero h1 {
       font-size: 2.5rem; } }
+
+@media only screen and (max-width: 924px) {
+  .container-hero {
+    margin: 0rem 1rem; }
+    .container-hero h1 {
+      display: none; }
+  .hero-img-bg {
+    background-position: center; }
+  .logo {
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13rem;
+    margin-bottom: 1rem; } }
 
 .FAQ summary {
   font-family: Ubuntu;

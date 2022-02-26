@@ -33,9 +33,6 @@
 }
 
 // RESET
-body{
-    width: 100vw;
-}
 .col {
     flex: 0 0 0% !important;
 }
@@ -69,18 +66,19 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 729px;
 }
 
 .container-txt-profesorado {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     height: 100%;
     align-items: center;
 
     & h2 {
         text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
     }
 
     & p {
@@ -88,7 +86,8 @@ body{
         font-weight: 400;
         line-height: 34px;
         text-align: center;
-        width: 36.5625rem;
+        width: 80%;
+        margin-top: 2rem;
     }
 }
 
@@ -114,6 +113,8 @@ button {
 
 #cerrarProfesorado {
     cursor: pointer;
+    margin-bottom: 3rem;
+    height: 4rem;
 }
 
 .btnVerde {
@@ -123,87 +124,132 @@ button {
     text-decoration: none;
     font-size: 1.75rem;
     border-radius: 60px;
-    margin-bottom: 3rem;
-    height: 4rem;
-}
-
-.btn-verde{
-    background-color: rgba(10, 132, 126, 1);
-    height: fit-content;
     width: fit-content;
-    padding: 1rem 3rem;
-    border-radius: 3rem; 
-    margin-bottom: 2rem;
-    color: #ffffff;
-    font-weight: 900;
-    text-decoration: none;
+}
+.btnVerde:hover {
+    color: white;
 }
 
-#containerProfesorado{
-    margin: 7rem 0;
+
+#btnEscuela {
+    font-size: 2.25rem;
+    font-weight: 600;
 }
 
-#containerEscuela{
-    margin: 7rem 0;
+#btnProfesorado {
+    font-size: 2.25rem;
+    font-weight: 600;
 }
 
-.escuela-row{
+.escuela-row {
     background-image: url(../media/images/vector-escuela.png);
     background-size: cover;
-    &__texto{
+
+    &__texto {
         font-size: 1.6875rem;
         font-weight: 600;
         width: 36.5625rem;
     }
 }
 
-@media only screen and (min-width: 200px) and (max-width: 500px){
-    .escuela-row{
-        &__texto{
-            font-size: 1.5rem;
+.contenedor-profesorado {
+    width: 70%;
+}
+
+.contenedor-escuela {
+    width: 70%;
+    
+}
+@media only screen and (min-width: 200px) and (max-width: 500px) {
+
+    .escuela-row {
+        &__texto {
+            font-size: 1.4rem;
             width: 70vw;
+            text-align: center;
         }
     }
 
-    .contenedor-escuela{
+    .contenedor-escuela {
         align-items: center;
-        img{
-        max-width: 100vw;
+        width: 100%;
+        img {
+            max-width: 80%;
         }
     }
 
-    .contenedor-profesorado{
+    #btnEscuela {
+        font-size: 1.9rem;
+        font-weight: 600;
+    }
+
+    #btnProfesorado {
+        font-size: 1.9rem;
+        font-weight: 600;
+    }
+
+    .contenedor-profesorado {
         align-items: center;
-        img{
-            max-width: 100vw;
+        width: 100%;
+        img {
+            max-width: 80%;
         }
     }
 
-    #cerrarEscuela{
-        margin-bottom: 0;
+    #cerrarEscuela {
+        margin-bottom: 1rem;
         margin-top: 3rem;
+        height: 3rem;
     }
-
-    .div-botones{
+    #cerrarProfesorado {
+        margin-bottom: 1rem;
+        margin-top: 3rem;
+        height: 3rem;
+    }
+    .div-botones {
         flex-direction: column;
         align-items: center;
     }
 
-    .container-txt-profesorado p{
-        width: 100vw;
+    .container-txt-profesorado p {
+        width: 80%;
+        font-size: 1.5rem;
     }
 
-    iframe{
+    iframe {
         width: 95vw;
     }
 
-    .logos-container{
+    .logos-container {
         display: flex;
         flex-direction: column;
         align-items: center;
-        img{
+
+        img {
             width: 8rem;
         }
     }
+    .container-carousel {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 3rem;
+        & img {
+            width: 50%;
+        }
+    }
+    .font-44 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .container-faq {
+        width: fit-content;
+    }
+    .btnVerde {
+        font-size: 1rem;
+        padding: 1rem 2rem;
+    }
+}
 
+.imageLaEscuela {
+    width: 80%;
 }
