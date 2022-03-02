@@ -184,6 +184,43 @@ button {
 .imageLaEscuela {
   width: 80%; }
 
+.contenedor-profesorado {
+  flex-direction: row !important; }
+
+@media only screen and (min-width: 1125px) and (max-width: 1424px) {
+  .imagenServicios {
+    width: 50% !important; }
+  .container-txt-profesorado p {
+    font-size: 1.5rem; } }
+
+@media only screen and (max-width: 924px) {
+  .contenedor-escuela {
+    flex-direction: column !important; }
+  .contenedor-profesorado {
+    flex-direction: column !important; }
+  .imagenServicios {
+    width: 50% !important;
+    margin-right: auto;
+    margin-left: auto; }
+  .container-txt-profesorado p {
+    font-size: 1.5rem; } }
+
+@media only screen and (min-width: 925px) and (max-width: 1124px) {
+  .contenedor-escuela {
+    flex-direction: column !important; }
+  .contenedor-profesorado {
+    flex-direction: column !important; }
+  .imagenServicios {
+    width: 50% !important;
+    margin-right: auto;
+    margin-left: auto; }
+  .container-txt-profesorado p {
+    font-size: 1.5rem; } }
+
+@media only screen and (min-width: 1125px) and (max-width: 1424px) {
+  .container-txt-profesorado p {
+    font-size: 1.2rem; } }
+
 .navbar {
   background: rgba(60, 172, 174, 0.63);
   padding: 0; }
@@ -254,7 +291,9 @@ button {
   .container-hero {
     margin: 0rem 5rem; }
   h1 {
-    font-size: 2.7rem !important; } }
+    font-size: 2.7rem !important; }
+  .contenedor-escuela img {
+    width: 50% !important; } }
 
 @media only screen and (min-width: 925px) and (max-width: 1124px) {
   .container-hero {

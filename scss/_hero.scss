@@ -56,6 +56,11 @@
     & h1 {
         font-size: 2.7rem!important;
     }
+    .contenedor-escuela {
+        & img {
+            width: 50%!important;
+        }
+    }
 
 }
 
@@ -85,6 +90,5 @@
         margin-bottom: 1rem;
     }
 }
-
 //min-width: para que se aplique, tiene que tener como minimo X px
 
