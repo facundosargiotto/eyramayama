@@ -116,6 +116,11 @@ button {
     font-size: 1.6875rem;
     font-weight: 600;
     width: 36.5625rem; }
+  .escuela-row__texto-clases {
+    font-size: 1.9875rem;
+    font-weight: 600;
+    width: 60.5625rem;
+    margin-top: 3rem; }
 
 .contenedor-profesorado {
   width: 70%; }
@@ -124,6 +129,8 @@ button {
   width: 70%; }
 
 @media only screen and (min-width: 200px) and (max-width: 500px) {
+  .clases-requisitos {
+    padding-left: 9rem; }
   .escuela-row__texto {
     font-size: 1.4rem;
     width: 70vw;
