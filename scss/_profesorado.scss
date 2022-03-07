@@ -1,0 +1,61 @@
+.profesorado-texto {
+    font-size: 1.5rem;
+}
+
+.contenedor-texto-certificado {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 5rem;
+
+    & p {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+
+.contenedor-texto-enseñanza {
+    display: flex;
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    & img {
+        width: 40%;
+    }
+
+    & h3 {
+        font-size: 3rem;
+    }
+}
+
+.contenedor-ensenanza {
+    margin: 0 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & p {
+        font-size: 1.5rem;
+    }
+}
+
+.contenedor-texto-duracion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 5rem;
+    & h3 {
+        font-size: 3rem;
+    }
+    & p {
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+}
+
+.lista-horarios {
+    font-size: 1.5rem;
+    margin-left: 3rem;
+}

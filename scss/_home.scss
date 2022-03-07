@@ -151,7 +151,15 @@ button {
         font-weight: 600;
         width: 36.5625rem;
     }
+    &__texto-clases{
+        font-size: 1.9875rem;
+        font-weight: 600;
+        width: 60.5625rem;
+        margin-top: 3rem;
+    }
 }
+
+
 
 .contenedor-profesorado {
     width: 70%;
@@ -163,6 +171,10 @@ button {
 }
 
 @media only screen and (min-width: 200px) and (max-width: 500px) {
+
+    .clases-requisitos{
+        padding-left: 9rem;
+    }
 
     .escuela-row {
         &__texto {
@@ -258,6 +270,12 @@ button {
     .btnVerde {
         font-size: 1rem;
         padding: 1rem 2rem;
+    }
+    .contenedor-texto-duracion h3 {
+        font-size: 2rem;
+    }
+    .contenedor-texto-enseñanza h3 {
+        font-size: 2rem;
     }
 }
 

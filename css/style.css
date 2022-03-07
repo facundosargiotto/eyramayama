@@ -1,3 +1,160 @@
+@charset "UTF-8";
+.navbar {
+  background: rgba(60, 172, 174, 0.63);
+  padding: 0; }
+
+.navbar-nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin: 0rem 5rem; }
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  padding: 3rem 1rem; }
+
+.nav-link:hover {
+  color: black; }
+
+.nav-link:visited {
+  color: black; }
+
+.fa-bars {
+  margin: 1rem;
+  font-size: 36px; }
+
+.hero-img-bg {
+  height: 86vh;
+  background-image: url(../media/images/heroBG.png);
+  background-size: cover;
+  max-width: 100%; }
+
+.container-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0rem 13rem;
+  max-width: 100%; }
+  .container-hero > * {
+    margin-bottom: 7rem; }
+  .container-hero h1 {
+    font-family: Quicksand;
+    font-size: 3.4375rem;
+    font-weight: 400;
+    line-height: 69px;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+
+.logo {
+  max-height: 80%;
+  height: 251px; }
+
+.cont-elements-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%; }
+
+@media only screen and (min-width: 1722px) {
+  .container-hero {
+    margin: 0rem 20rem; } }
+
+@media only screen and (min-width: 1425px) and (max-width: 1721px) {
+  .container-hero {
+    margin: 0rem 10rem; } }
+
+@media only screen and (min-width: 1125px) and (max-width: 1424px) {
+  .container-hero {
+    margin: 0rem 5rem; }
+  h1 {
+    font-size: 2.7rem !important; }
+  .contenedor-escuela img {
+    width: 50% !important; } }
+
+@media only screen and (min-width: 925px) and (max-width: 1124px) {
+  .container-hero {
+    margin: 0rem 1rem; }
+    .container-hero h1 {
+      font-size: 2.5rem; } }
+
+@media only screen and (max-width: 924px) {
+  .container-hero {
+    margin: 0rem 1rem; }
+    .container-hero h1 {
+      display: none; }
+  .hero-img-bg {
+    background-position: center; }
+  .logo {
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13rem;
+    margin-bottom: 1rem; } }
+
+.FAQ summary {
+  font-family: Ubuntu;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 23px;
+  padding-bottom: 1.5625rem; }
+
+.FAQ p {
+  font-family: Ubuntu;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 21px; }
+
+.container-faq {
+  margin: 3.75rem 5rem; }
+
+.profesorado-texto {
+  font-size: 1.5rem; }
+
+.contenedor-texto-certificado {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 5rem; }
+  .contenedor-texto-certificado p {
+    font-size: 1.5rem;
+    text-align: center; }
+
+.contenedor-texto-enseñanza {
+  display: flex;
+  margin-top: 5rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .contenedor-texto-enseñanza img {
+    width: 40%; }
+  .contenedor-texto-enseñanza h3 {
+    font-size: 3rem; }
+
+.contenedor-ensenanza {
+  margin: 0 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .contenedor-ensenanza p {
+    font-size: 1.5rem; }
+
+.contenedor-texto-duracion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 5rem; }
+  .contenedor-texto-duracion h3 {
+    font-size: 3rem; }
+  .contenedor-texto-duracion p {
+    font-size: 1.5rem;
+    margin-top: 2rem; }
+
+.lista-horarios {
+  font-size: 1.5rem;
+  margin-left: 3rem; }
+
 .font-ubuntu {
   font-family: 'Ubuntu', sans-serif; }
 
@@ -116,6 +273,11 @@ button {
     font-size: 1.6875rem;
     font-weight: 600;
     width: 36.5625rem; }
+  .escuela-row__texto-clases {
+    font-size: 1.9875rem;
+    font-weight: 600;
+    width: 60.5625rem;
+    margin-top: 3rem; }
 
 .contenedor-profesorado {
   width: 70%; }
@@ -124,6 +286,8 @@ button {
   width: 70%; }
 
 @media only screen and (min-width: 200px) and (max-width: 500px) {
+  .clases-requisitos {
+    padding-left: 9rem; }
   .escuela-row__texto {
     font-size: 1.4rem;
     width: 70vw;
@@ -179,7 +343,11 @@ button {
     width: fit-content; }
   .btnVerde {
     font-size: 1rem;
-    padding: 1rem 2rem; } }
+    padding: 1rem 2rem; }
+  .contenedor-texto-duracion h3 {
+    font-size: 2rem; }
+  .contenedor-texto-enseñanza h3 {
+    font-size: 2rem; } }
 
 .imageLaEscuela {
   width: 80%; }
@@ -220,116 +388,6 @@ button {
 @media only screen and (min-width: 1125px) and (max-width: 1424px) {
   .container-txt-profesorado p {
     font-size: 1.2rem; } }
-
-.navbar {
-  background: rgba(60, 172, 174, 0.63);
-  padding: 0; }
-
-.navbar-nav {
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
-  margin: 0rem 5rem; }
-
-.nav-link {
-  text-decoration: none;
-  color: black;
-  font-size: 1.5rem;
-  padding: 3rem 1rem; }
-
-.nav-link:hover {
-  color: black; }
-
-.nav-link:visited {
-  color: black; }
-
-.fa-bars {
-  margin: 1rem;
-  font-size: 36px; }
-
-.hero-img-bg {
-  height: 86vh;
-  background-image: url(../media/images/heroBG.png);
-  background-size: cover;
-  max-width: 100%; }
-
-.container-hero {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0rem 13rem;
-  max-width: 100%; }
-  .container-hero > * {
-    margin-bottom: 7rem; }
-  .container-hero h1 {
-    font-family: Quicksand;
-    font-size: 3.4375rem;
-    font-weight: 400;
-    line-height: 69px;
-    text-align: center;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
-
-.logo {
-  max-height: 80%;
-  height: 251px; }
-
-.cont-elements-hero {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100%; }
-
-@media only screen and (min-width: 1722px) {
-  .container-hero {
-    margin: 0rem 20rem; } }
-
-@media only screen and (min-width: 1425px) and (max-width: 1721px) {
-  .container-hero {
-    margin: 0rem 10rem; } }
-
-@media only screen and (min-width: 1125px) and (max-width: 1424px) {
-  .container-hero {
-    margin: 0rem 5rem; }
-  h1 {
-    font-size: 2.7rem !important; }
-  .contenedor-escuela img {
-    width: 50% !important; } }
-
-@media only screen and (min-width: 925px) and (max-width: 1124px) {
-  .container-hero {
-    margin: 0rem 1rem; }
-    .container-hero h1 {
-      font-size: 2.5rem; } }
-
-@media only screen and (max-width: 924px) {
-  .container-hero {
-    margin: 0rem 1rem; }
-    .container-hero h1 {
-      display: none; }
-  .hero-img-bg {
-    background-position: center; }
-  .logo {
-    height: 180px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 13rem;
-    margin-bottom: 1rem; } }
-
-.FAQ summary {
-  font-family: Ubuntu;
-  font-size: 1.25rem;
-  font-weight: 500;
-  line-height: 23px;
-  padding-bottom: 1.5625rem; }
-
-.FAQ p {
-  font-family: Ubuntu;
-  font-size: 1.125rem;
-  font-weight: 500;
-  line-height: 21px; }
-
-.container-faq {
-  margin: 3.75rem 5rem; }
 
 * {
   margin: 0;
