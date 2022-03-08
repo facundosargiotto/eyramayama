@@ -32,6 +32,7 @@
     border-bottom: 2px solid;
 }
 
+
 // RESET
 .col {
     flex: 0 0 0% !important;
@@ -149,13 +150,12 @@ button {
     &__texto {
         font-size: 1.6875rem;
         font-weight: 600;
-        width: 36.5625rem;
     }
-    &__texto-clases{
-        font-size: 1.9875rem;
+
+    &__texto-clases {
+        font-size: 1.5875rem;
         font-weight: 600;
-        width: 60.5625rem;
-        margin-top: 3rem;
+        margin: 2rem 3rem;
     }
 }
 
@@ -170,10 +170,48 @@ button {
 
 }
 
+@media only screen and (min-width : 1125px) and (max-width : 1424px) {
+    .container-aturitmo {
+        flex-direction: column;
+
+        & img {
+            margin: 0 auto;
+        }
+    }
+    .clases-requisitos {
+        flex-direction: column!important;
+    }
+    .container-txt-profesorado p {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-hero-profesorado {
+        flex-direction: column-reverse !important;
+
+        & img {
+            margin: auto;
+        }
+    }
+    .clases-requisitos {
+        flex-direction: column!important;
+    }
+
+    .profesorado-texto {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .contenedor-ensenanza p {
+        font-size: 1.2rem;
+
+    }
+}
+
 @media only screen and (min-width: 200px) and (max-width: 500px) {
 
-    .clases-requisitos{
-        padding-left: 9rem;
+    .clases-requisitos {
+        flex-direction: column!important;
+
     }
 
     .escuela-row {
@@ -271,11 +309,45 @@ button {
         font-size: 1rem;
         padding: 1rem 2rem;
     }
+
     .contenedor-texto-duracion h3 {
         font-size: 2rem;
+        text-align: center;
     }
+
+    .lista-horarios {
+        font-size: 1.2rem;
+        margin: 0;
+    }
+
+    .contenedor-texto-duracion {
+        margin: 0 2rem;
+    }
+
+    .container-aturitmo {
+        flex-direction: column !important;
+
+        & img {
+            margin: 0 auto;
+            width: 80%;
+        }
+    }
+
     .contenedor-texto-enseñanza h3 {
         font-size: 2rem;
+    }
+
+    .contenedor-texto-certificado p {
+        font-size: 1.2rem;
+    }
+
+    .contenedor-texto-duracion p {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .contenedor-texto-enseñanza img {
+        width: 100%;
     }
 }
 
@@ -292,45 +364,99 @@ button {
     .imagenServicios {
         width: 50% !important;
     }
-    .container-txt-profesorado p {
-        font-size: 1.5rem;
-    }
-}
-@media only screen and (max-width : 924px) {
-    .contenedor-escuela {
-        flex-direction: column!important;
-    }
-    .contenedor-profesorado {
-        flex-direction: column!important;
-    }
-    .imagenServicios {
-        width: 50% !important;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    .container-txt-profesorado p {
-        font-size: 1.5rem;
-    }
-}
-@media only screen and (min-width : 925px) and (max-width : 1124px) {
-    .contenedor-escuela {
-        flex-direction: column!important;
-    }
-    .contenedor-profesorado {
-        flex-direction: column!important;
-    }
-    .imagenServicios {
-        width: 50% !important;
-        margin-right: auto;
-        margin-left: auto;
-    }
+
     .container-txt-profesorado p {
         font-size: 1.5rem;
     }
 }
 
-@media only screen and (min-width : 1125px) and (max-width : 1424px) {
+@media only screen and (max-width : 924px) {
+    .contenedor-escuela {
+        flex-direction: column !important;
+    }
+
+    .contenedor-profesorado {
+        flex-direction: column !important;
+    }
+
+    .imagenServicios {
+        width: 50% !important;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
     .container-txt-profesorado p {
+        font-size: 1.5rem;
+    }
+
+    .contenedor-hero-profesorado {
+        flex-direction: column-reverse !important;
+
+        & img {
+            margin: auto;
+        }
+    }
+
+    .contenedor-ensenanza {
+        flex-direction: column;
+    }
+
+    .profesorado-texto {
         font-size: 1.2rem;
+        text-align: center;
     }
+
+    .contenedor-ensenanza p {
+        font-size: 1.2rem;
+        text-align: center;
+
     }
+}
+
+@media only screen and (min-width : 925px) and (max-width : 1124px) {
+    .contenedor-escuela {
+        flex-direction: column !important;
+    }
+
+    .contenedor-profesorado {
+        flex-direction: column !important;
+    }
+
+
+    .imagenServicios {
+        width: 50% !important;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .container-txt-profesorado p {
+        font-size: 1.5rem;
+    }
+
+    .profesorado-texto {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .contenedor-hero-profesorado {
+        flex-direction: column-reverse !important;
+
+        & img {
+            margin: auto;
+        }
+    }
+
+    .contenedor-ensenanza {
+        flex-direction: column !important;
+    }
+
+    .container-aturitmo {
+        flex-direction: column;
+
+        & img {
+            margin: 0 auto;
+        }
+    }
+
+    // @media only screen and (min-width : 1125px) and (max-width : 1424px) {
+}

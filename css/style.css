@@ -139,6 +139,10 @@
   .contenedor-ensenanza p {
     font-size: 1.5rem; }
 
+.image-profesorado-hero {
+  width: 50%;
+  height: 100%; }
+
 .contenedor-texto-duracion {
   display: flex;
   justify-content: center;
@@ -154,6 +158,9 @@
 .lista-horarios {
   font-size: 1.5rem;
   margin-left: 3rem; }
+
+.contenedor-texto-certificado p {
+  margin-top: 2rem; }
 
 .font-ubuntu {
   font-family: 'Ubuntu', sans-serif; }
@@ -271,13 +278,11 @@ button {
   background-size: cover; }
   .escuela-row__texto {
     font-size: 1.6875rem;
-    font-weight: 600;
-    width: 36.5625rem; }
+    font-weight: 600; }
   .escuela-row__texto-clases {
-    font-size: 1.9875rem;
+    font-size: 1.5875rem;
     font-weight: 600;
-    width: 60.5625rem;
-    margin-top: 3rem; }
+    margin: 2rem 3rem; }
 
 .contenedor-profesorado {
   width: 70%; }
@@ -285,9 +290,30 @@ button {
 .contenedor-escuela {
   width: 70%; }
 
+@media only screen and (min-width: 1125px) and (max-width: 1424px) {
+  .container-aturitmo {
+    flex-direction: column; }
+    .container-aturitmo img {
+      margin: 0 auto; }
+  .clases-requisitos {
+    flex-direction: column !important; }
+  .container-txt-profesorado p {
+    font-size: 1.2rem; }
+  .contenedor-hero-profesorado {
+    flex-direction: column-reverse !important; }
+    .contenedor-hero-profesorado img {
+      margin: auto; }
+  .clases-requisitos {
+    flex-direction: column !important; }
+  .profesorado-texto {
+    font-size: 1.3rem;
+    text-align: center; }
+  .contenedor-ensenanza p {
+    font-size: 1.2rem; } }
+
 @media only screen and (min-width: 200px) and (max-width: 500px) {
   .clases-requisitos {
-    padding-left: 9rem; }
+    flex-direction: column !important; }
   .escuela-row__texto {
     font-size: 1.4rem;
     width: 70vw;
@@ -345,9 +371,27 @@ button {
     font-size: 1rem;
     padding: 1rem 2rem; }
   .contenedor-texto-duracion h3 {
-    font-size: 2rem; }
+    font-size: 2rem;
+    text-align: center; }
+  .lista-horarios {
+    font-size: 1.2rem;
+    margin: 0; }
+  .contenedor-texto-duracion {
+    margin: 0 2rem; }
+  .container-aturitmo {
+    flex-direction: column !important; }
+    .container-aturitmo img {
+      margin: 0 auto;
+      width: 80%; }
   .contenedor-texto-enseñanza h3 {
-    font-size: 2rem; } }
+    font-size: 2rem; }
+  .contenedor-texto-certificado p {
+    font-size: 1.2rem; }
+  .contenedor-texto-duracion p {
+    font-size: 1.2rem;
+    text-align: center; }
+  .contenedor-texto-enseñanza img {
+    width: 100%; } }
 
 .imageLaEscuela {
   width: 80%; }
@@ -371,7 +415,19 @@ button {
     margin-right: auto;
     margin-left: auto; }
   .container-txt-profesorado p {
-    font-size: 1.5rem; } }
+    font-size: 1.5rem; }
+  .contenedor-hero-profesorado {
+    flex-direction: column-reverse !important; }
+    .contenedor-hero-profesorado img {
+      margin: auto; }
+  .contenedor-ensenanza {
+    flex-direction: column; }
+  .profesorado-texto {
+    font-size: 1.2rem;
+    text-align: center; }
+  .contenedor-ensenanza p {
+    font-size: 1.2rem;
+    text-align: center; } }
 
 @media only screen and (min-width: 925px) and (max-width: 1124px) {
   .contenedor-escuela {
@@ -383,11 +439,20 @@ button {
     margin-right: auto;
     margin-left: auto; }
   .container-txt-profesorado p {
-    font-size: 1.5rem; } }
-
-@media only screen and (min-width: 1125px) and (max-width: 1424px) {
-  .container-txt-profesorado p {
-    font-size: 1.2rem; } }
+    font-size: 1.5rem; }
+  .profesorado-texto {
+    font-size: 1.3rem;
+    text-align: center; }
+  .contenedor-hero-profesorado {
+    flex-direction: column-reverse !important; }
+    .contenedor-hero-profesorado img {
+      margin: auto; }
+  .contenedor-ensenanza {
+    flex-direction: column !important; }
+  .container-aturitmo {
+    flex-direction: column; }
+    .container-aturitmo img {
+      margin: 0 auto; } }
 
 * {
   margin: 0;

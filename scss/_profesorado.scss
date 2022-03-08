@@ -40,6 +40,11 @@
     }
 }
 
+.image-profesorado-hero {
+    width: 50%;
+    height: 100%;
+}
+
 .contenedor-texto-duracion {
     display: flex;
     justify-content: center;
@@ -58,4 +63,7 @@
 .lista-horarios {
     font-size: 1.5rem;
     margin-left: 3rem;
+}
+.contenedor-texto-certificado p {
+    margin-top: 2rem;
 }
