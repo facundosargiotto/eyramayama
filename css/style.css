@@ -278,7 +278,8 @@ button {
   background-size: cover; }
   .escuela-row__texto {
     font-size: 1.6875rem;
-    font-weight: 600; }
+    font-weight: 600;
+    margin: 0 3rem; }
   .escuela-row__texto-clases {
     font-size: 1.5875rem;
     font-weight: 600;
@@ -393,9 +394,6 @@ button {
   .contenedor-texto-enseñanza img {
     width: 100%; } }
 
-.imageLaEscuela {
-  width: 80%; }
-
 .contenedor-profesorado {
   flex-direction: row !important; }
 
@@ -403,9 +401,13 @@ button {
   .imagenServicios {
     width: 50% !important; }
   .container-txt-profesorado p {
-    font-size: 1.5rem; } }
+    font-size: 1.5rem; }
+  .imageLaEscuela {
+    width: 352px; } }
 
 @media only screen and (max-width: 924px) {
+  .imageLaEscuela {
+    width: 352px; }
   .contenedor-escuela {
     flex-direction: column !important; }
   .contenedor-profesorado {
@@ -430,6 +432,8 @@ button {
     text-align: center; } }
 
 @media only screen and (min-width: 925px) and (max-width: 1124px) {
+  .imageLaEscuela {
+    width: 352px; }
   .contenedor-escuela {
     flex-direction: column !important; }
   .contenedor-profesorado {

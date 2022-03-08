@@ -150,6 +150,7 @@ button {
     &__texto {
         font-size: 1.6875rem;
         font-weight: 600;
+        margin: 0 3rem;
     }
 
     &__texto-clases {
@@ -351,9 +352,7 @@ button {
     }
 }
 
-.imageLaEscuela {
-    width: 80%;
-}
+
 
 .contenedor-profesorado {
     flex-direction: row !important;
@@ -368,9 +367,15 @@ button {
     .container-txt-profesorado p {
         font-size: 1.5rem;
     }
+    .imageLaEscuela {
+        width: 352px;
+    }
 }
 
 @media only screen and (max-width : 924px) {
+    .imageLaEscuela {
+        width: 352px;
+    }
     .contenedor-escuela {
         flex-direction: column !important;
     }
@@ -414,6 +419,9 @@ button {
 }
 
 @media only screen and (min-width : 925px) and (max-width : 1124px) {
+    .imageLaEscuela {
+        width: 352px;
+    }
     .contenedor-escuela {
         flex-direction: column !important;
     }
