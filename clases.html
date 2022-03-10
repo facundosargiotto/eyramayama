@@ -93,42 +93,76 @@
     <h2 class="escuela-row__texto-clases d-flex justify-content-center mb-5" style="width: 100%;">¡¡Consultanos por los
         horarios y valores disponibles!! </h2>
 
-    <footer class="bg-lighter-green row flex-column align-items-center align-items-md-start flex-md-row">
+        <footer class="bg-lighter-green row flex-column align-items-center align-items-md-start flex-md-row">
 
-        <div class="col-4 d-flex flex-column ps-5 align-items-center">
-            <span class="my-5 font-quick" style="font-weight: 600; font-size: 24px;">Seguinos en nuestras redes:</span>
-            <div>
-                <a href="https://www.instagram.com/eyramayana/" target="_blank" class="px-3"><img
-                        src="./media/images/instagram.png" alt="anchor instagram" style="max-height: 84px;"></a>
-                <a href="https://www.facebook.com/escueladeyogaramayana" target="_blank" class="px-3"><img
-                        src="./media/images/facebook.png" alt="anchor facebook" style="max-height: 90px;"></a>
+            <div class="col-4 d-flex flex-column ps-5 align-items-center">
+                <span class="my-5 font-quick" style="font-weight: 600; font-size: 24px;">Seguinos en nuestras redes:</span>
+                <div>
+                    <a href="https://www.instagram.com/eyramayana/" target="_blank" class="px-3"><img
+                            src="./media/images/instagram.png" alt="anchor instagram" style="max-height: 84px;"></a>
+                    <a href="https://www.facebook.com/escueladeyogaramayana" target="_blank" class="px-3"><img
+                            src="./media/images/facebook.png" alt="anchor facebook" style="max-height: 90px;"></a>
+                </div>
+                <div class="mt-5">
+                    <a href="https://www.youtube.com/channel/UCRkJWPhE3KXPOqUQNVf_vDA/featured" target="_blank"
+                        class="px-3"><img src="./media/images/youtube.png" alt="anchor youtube"
+                            style="max-height: 100px;"></a>
+                    <a href="https://www.tiktok.com/@eyramayana?lang=es" target="_blank" class="px-3"><img
+                            src="./media/images/tik-tok.png" alt="anchor youtube" style="max-height: 75px;"></a>
+                </div>
             </div>
-            <div class="mt-5">
-                <a href="https://www.youtube.com/channel/UCRkJWPhE3KXPOqUQNVf_vDA/featured" target="_blank"
-                    class="px-3"><img src="./media/images/youtube.png" alt="anchor youtube"
-                        style="max-height: 100px;"></a>
-                <a href="https://www.tiktok.com/@eyramayana?lang=es" target="_blank" class="px-3"><img
-                        src="./media/images/tik-tok.png" alt="anchor youtube" style="max-height: 75px;"></a>
+    
+            <div class="col-8 d-flex flex-column ps-5 align-items-center">
+                <span class="my-5 font-quick" style="font-weight: 600; font-size: 24px;">Federaciones e instituciones
+                    nacionales que avalan la escuela:</span>
+                <div class="logos-container"">
+                    <img class="px-1" src="./media/images/separado1.png" alt="">
+                    <img class="px-1" src="./media/images/separado2.png" alt="">
+                    <img class="px-1" src="./media/images/separado3.png" alt="">
+                    <img class="px-1" src="./media/images/insti4.png" alt="">
+                    <img class="px-1" src="./media/images/insti5.png" alt="">
+                    <img class="px-1" src="./media/images/insti6.png" alt=""> <br>
+                    <img class="px-1" src="./media/images/insti7.png" alt="">
+                    <img class="px-1" src="./media/images/insti9.png" alt="">
+                    <img class="px-1" src="./media/images/insti1.png" alt="">
+                    <img class="px-1" src="./media/images/insti2.png" alt="">
+                    <img class="px-1" src="./media/images/insti3.png" alt="">
+                </div>
             </div>
-        </div>
+    
+        </footer>
 
-        <div class="col-8 d-flex flex-column ps-5 align-items-center">
-            <span class="my-5 font-quick" style="font-weight: 600; font-size: 24px;">Federaciones e instituciones
-                nacionales que avalan la escuela:</span>
-            <div class="logos-container"">
-                <img class=" px-1" src="./media/images/insti8.png" alt="">
-                <img class="px-1" src="./media/images/insti4.png" alt="">
-                <img class="px-1" src="./media/images/insti5.png" alt="">
-                <img class="px-1" src="./media/images/insti6.png" alt=""> <br>
-                <img class="px-1" src="./media/images/insti7.png" alt="">
-                <img class="px-1" src="./media/images/insti9.png" alt="">
-                <img class="px-1" src="./media/images/insti1.png" alt="">
-                <img class="px-1" src="./media/images/insti2.png" alt="">
-                <img class="px-1" src="./media/images/insti3.png" alt="">
-            </div>
-        </div>
+    <!-- Messenger plugin del chat Code -->
+    <div id="fb-root"></div>
 
-    </footer>
+    <!-- Your plugin del chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "106871401007076");
+        chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v13.0'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
 
     <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
